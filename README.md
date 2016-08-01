@@ -18,17 +18,31 @@
 
 ## Typescript tutorial examples
 
+
 - **1. hello world** (function helo world)
- **output** : ```Hello, World! ```
+
+ **output** : 
+ ```shell
+ Hello, World!
+  ```
 
 - **2. first class** (simple class)
- **output** : ```elephant object = [object Object] ```
+
+ **output** :
+ ```shell
+ elephant object = [object Object]
+ ```
 
 - **3. bigger class** : (getters, setters, constructor with params, access keywords, )
-**output** : ```elephant => name = elephant 2, age = 10, vaccination = true ```
+
+**output** :
+```shell
+elephant => name = elephant 2, age = 10, vaccination = true
+```
 
 - **4. more constructors and more methods** : trick how you can have  overloaded methods (technicaly still one method)
  and multiple constructors (technically still one constructor) and lambda example.
+
  **output** :
  ```shell
  tiger1 => name = Tiger1, age = undefined, vaccination = undefined
