@@ -22,7 +22,8 @@
  **output** : ```Hello, World! ```
 - **2. first class** (simple class)
  **output** : ```elephant object = [object Object] ```
-
+- **3. bigger class** : (getters, setters, constructor with params, access keywords, )
+**output** : ```elephant => name = elephant 2, age = 10, vaccination = true ```
 
 ## Prerequisites
 
