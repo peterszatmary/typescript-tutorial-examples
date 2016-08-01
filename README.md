@@ -1,5 +1,5 @@
 # typescript-tutorial-examples
-Typescript first steps.
+[Typescript](https://www.typescriptlang.org/) first steps.
 
 
 ## Project structure
@@ -10,22 +10,24 @@ Typescript first steps.
     └── tsconfig.json
 ```
 
- - In *build* directory you can find *js* and *js.map* files (transpilation outputs).
- - In *dev* directory you can *ts* files.
- - typescript tsc configuration file *tsconfig.json*
- - outputs are in es5 format
+ - In *build* directory you can find **js** and **js.map** files (transpilation outputs).
+ - In *dev* directory you can **ts** files.
+ - typescript tsc configuration file **tsconfig.json**
+ - outputs are in **es5** format
 
 
 ## Typescript tutorial examples
 
 - 1. hello world (function helo world)
+``` output is : Hello, World! ```
 - 2. first class (simple class)
+``` output is : elephant object = [object Object] ```
 - 3.
 
 
 ## Settings and tools
 
-This examples were created with *WebStorm* configured
+This examples were created with **[WebStorm](https://www.jetbrains.com/webstorm/specials/webstorm/webstorm.html?&gclid=CjwKEAjw5vu8BRC8rIGNrqbPuSESJADG8RV0Ml3J3e3xU12pKWb4P5xKluRQSY84nEX4TmHnllvBshoC4vHw_wcB&gclsrc=aw.ds.ds&dclid=CL6Mk8T2oM4CFYSNGwodfr4Pkw)** configured
 
 ![1](https://github.com/peterszatmary/just-like-that/blob/master/imgs/typescript-tutorial-examples/webstorm-typescript-settings.png)
 
