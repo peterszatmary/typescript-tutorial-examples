@@ -1,4 +1,4 @@
 function helloworld(message: string) {
-    console.log("Hello, " + message);
+    console.log("Hello, " + message)
 }
-helloworld("World!");
+helloworld("World!")

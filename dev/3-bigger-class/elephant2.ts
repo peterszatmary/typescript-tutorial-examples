@@ -57,5 +57,5 @@ class Elephant2 {
 
 }
 
-let elephant2 : Elephant2 = new Elephant2("elephant 2", 10, true);
-console.log("elephant => name = " + elephant2.name + ", age = " + elephant2.age + ", vaccination = " + elephant2.vaccination);
+let elephant2 : Elephant2 = new Elephant2("elephant 2", 10, true)
+console.log("elephant => name = " + elephant2.name + ", age = " + elephant2.age + ", vaccination = " + elephant2.vaccination)

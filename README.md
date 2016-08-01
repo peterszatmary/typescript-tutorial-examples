@@ -20,10 +20,30 @@
 
 - **1. hello world** (function helo world)
  **output** : ```Hello, World! ```
+
 - **2. first class** (simple class)
  **output** : ```elephant object = [object Object] ```
+
 - **3. bigger class** : (getters, setters, constructor with params, access keywords, )
 **output** : ```elephant => name = elephant 2, age = 10, vaccination = true ```
+
+- **4. more constructors and more methods** : trick how you can have  overloaded methods (technicaly still one method)
+ and multiple constructors (technically still one constructor) and lambda example.
+ **output** : ```tiger1 => name = Tiger1, age = undefined, vaccination = undefined
+                 undefined
+                 24
+                 undefined
+                 24
+                 tiger2 => name = Tiger2, age = 14, vaccination = undefined
+                 14
+                 13
+                 14
+                 13
+                 tiger3 => name = Tiger3, age = 10, vaccination = true
+                 10
+                 10
+                 10
+                 10 ```
 
 ## Prerequisites
 

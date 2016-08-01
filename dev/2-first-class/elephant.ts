@@ -2,5 +2,5 @@ class Elephant {
 
 }
 
-let elephant : Elephant = new Elephant();
-console.log("elephant object = " + elephant);
+let elephant : Elephant = new Elephant()
+console.log("elephant object = " + elephant)
