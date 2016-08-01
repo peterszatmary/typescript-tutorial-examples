@@ -18,12 +18,15 @@
 
 ## Typescript tutorial examples
 
-- 1. hello world (function helo world)
-``` output is : Hello, World! ```
-- 2. first class (simple class)
-``` output is : elephant object = [object Object] ```
-- 3.
+- **1. hello world** (function helo world)
+ **output** : ```Hello, World! ```
+- **2. first class** (simple class)
+ **output** : ```elephant object = [object Object] ```
 
+
+## Prerequisites
+
+You need to install [Nodejs](https://nodejs.org/en/).
 
 ## Settings and tools
 
