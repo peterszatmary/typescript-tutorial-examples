@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "es5" ,       // target ECMA Script version after transpiling
+    "sourceMap" : true,     // mapping between ts and js
+    "module" : "amd",       // Asynchronous module definition
+    "outDir" : "../build/"  // directory for transpiled sources
+  }
+}
