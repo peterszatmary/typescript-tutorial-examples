@@ -10,7 +10,7 @@ var Tiger = (function () {
     function Tiger(_nameParam, _ageParam, _vaccination) {
         var _this = this;
         /**
-         * lambda version (in typescript called narrow function) of calculateNextVaccination with ternary operator
+         * lambda version (in typescript called arrow function) of calculateNextVaccination with ternary operator
          *
          * call this like
          *

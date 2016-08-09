@@ -21,7 +21,7 @@
 
 - **1. hello world** (function helo world)
 
- **output** : 
+ **output** :
  ```shell
  Hello, World!
   ```
@@ -60,6 +60,14 @@ elephant => name = elephant 2, age = 10, vaccination = true
  10
  10
  10
+ ```
+
+- **5. Interface and enum example.
+
+ **output** :
+ ```shell
+=> name = Audi R8 => speed = 230 => price = 3500 => sport = true
+=> name = BMW => speed = 220 => price = 4500 => sport = undefined
  ```
 
 ## Prerequisites

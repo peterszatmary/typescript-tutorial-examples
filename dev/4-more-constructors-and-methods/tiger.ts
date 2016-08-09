@@ -59,7 +59,7 @@ class Tiger {
     }
 
     /**
-     * lambda version (in typescript called narrow function) of calculateNextVaccination with ternary operator
+     * lambda version (in typescript called arrow function) of calculateNextVaccination with ternary operator
      *
      * call this like
      *
