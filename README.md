@@ -62,7 +62,7 @@ elephant => name = elephant 2, age = 10, vaccination = true
  10
  ```
 
-- **5. Interface and enum example.
+- **5. Interface and enum example**.
 
  **output** :
  ```shell

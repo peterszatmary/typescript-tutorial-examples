@@ -7,14 +7,12 @@ function printCar(car : VehicleInterface, equipment : VehicleEquipment) {
 }
 
 interface VehicleInterface { // interface example
-
     speed : number
     name : string
     sport? : boolean
     getPrice : (equipment : VehicleEquipment) => number
     // or
     // getPrice(equipment : VehicleEquipment) : number
-
 }
 
 enum VehicleEquipment { // enum example
@@ -24,7 +22,6 @@ enum VehicleEquipment { // enum example
 
 
 class Audi implements VehicleInterface { // class implementing interface example
-
     speed : number = 230
     name : string = "Audi R8"
     sport :  boolean = true
@@ -32,7 +29,6 @@ class Audi implements VehicleInterface { // class implementing interface example
 }
 
 class BMW implements VehicleInterface { // class implementing interface example
-
     speed:number = 220
     name:string = "BMW"
     getPrice = (equipment : VehicleEquipment) => VehicleEquipment.NONE == equipment ? 2200 : 4500
