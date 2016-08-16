@@ -73,11 +73,12 @@ elephant => name = elephant 2, age = 10, vaccination = true
 - **6. Inheritance, abstract class, toString example**.
 
  **output** :
+  ```shell
 { name: 'My Ferrari', sport: true, toString: [Function] }
 Vehicle = [ name : My Ferrari , sport : true , speed : 250 , price : 5600]
 { name: 'My Ford', sport: false, toString: [Function] }
 Vehicle = [ name : My Ford , sport : false , speed : 190 , price : 3000]
-
+ ```
 
 
 
