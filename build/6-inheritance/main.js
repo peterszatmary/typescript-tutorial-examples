@@ -3,6 +3,18 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
+// instance of example
+function checkType(vehicle) {
+    if (vehicle instanceof Ford) {
+        return "It is Ford";
+    }
+    else if (vehicle instanceof Ferrari) {
+        return "It is Ferrari";
+    }
+    else {
+        return "It is unknown";
+    }
+}
 // example of abstract class
 var Vehicle = (function () {
     function Vehicle(_name, _sport) {
@@ -48,9 +60,11 @@ var Ford = (function (_super) {
 }(Vehicle));
 // executable
 var vehicle = new Ferrari();
+console.log(checkType(vehicle));
 console.log(vehicle);
 console.log(vehicle.toString());
 vehicle = new Ford();
+console.log(checkType(vehicle));
 console.log(vehicle);
 console.log(vehicle.toString());
 //# sourceMappingURL=main.js.map

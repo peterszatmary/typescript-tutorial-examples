@@ -1,3 +1,14 @@
+// instance of example
+function checkType(vehicle : Vehicle) {
+    if (vehicle instanceof Ford) {
+        return "It is Ford"
+    } else if (vehicle instanceof Ferrari) {
+        return "It is Ferrari"
+    } else {
+        return "It is unknown"
+    }
+}
+
 // example of abstract class
 abstract class Vehicle {
 
@@ -55,8 +66,10 @@ class Ford extends Vehicle {
 
 // executable
 let vehicle : Vehicle = new Ferrari()
+console.log(checkType(vehicle))
 console.log(vehicle)
 console.log(vehicle.toString())
 vehicle = new Ford()
+console.log(checkType(vehicle))
 console.log(vehicle)
 console.log(vehicle.toString())

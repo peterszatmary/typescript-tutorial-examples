@@ -70,12 +70,14 @@ elephant => name = elephant 2, age = 10, vaccination = true
 => name = BMW => speed = 220 => price = 4500 => sport = undefined
  ```
 
-- **6. Inheritance, abstract class, toString example**.
+- **6. Inheritance, abstract class, toString, instanceof example**.
 
  **output** :
   ```shell
+It is Ferrari
 { name: 'My Ferrari', sport: true, toString: [Function] }
 Vehicle = [ name : My Ferrari , sport : true , speed : 250 , price : 5600]
+It is Ford
 { name: 'My Ford', sport: false, toString: [Function] }
 Vehicle = [ name : My Ford , sport : false , speed : 190 , price : 3000]
  ```
