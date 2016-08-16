@@ -19,29 +19,38 @@
 ## Typescript tutorial examples
 
 
-- **1. hello world** (function helo world)
+- **1. Episode**
+
+- function helo world
 
  **output** :
  ```shell
  Hello, World!
   ```
 
-- **2. first class** (simple class)
+- **2. Episode**
+
+- first class
 
  **output** :
  ```shell
  elephant object = [object Object]
  ```
 
-- **3. bigger class** : (getters, setters, constructor with params, access keywords, )
+- **3. Episode**
+
+- bigger class with getters, setters, constructor with params, access keywords
 
 **output** :
 ```shell
 elephant => name = elephant 2, age = 10, vaccination = true
 ```
 
-- **4. more constructors and more methods** : trick how you can have  overloaded methods (technicaly still one method)
+- **4. Episode**
+
+- trick how you can have  overloaded methods (technicaly still one method)
  and multiple constructors (technically still one constructor) and lambda example.
+
 
  **output** :
  ```shell
@@ -62,7 +71,10 @@ elephant => name = elephant 2, age = 10, vaccination = true
  10
  ```
 
-- **5. Interface and enum example**.
+- **5. Episode**
+
+- interface
+- enum
 
  **output** :
  ```shell
@@ -70,7 +82,12 @@ elephant => name = elephant 2, age = 10, vaccination = true
 => name = BMW => speed = 220 => price = 4500 => sport = undefined
  ```
 
-- **6. Inheritance, abstract class, toString, instanceof example**.
+- **6. Episode**
+
+- inheritance
+- abstract class
+- toString
+- instanceof
 
  **output** :
   ```shell
@@ -81,6 +98,28 @@ It is Ford
 { name: 'My Ford', sport: false, toString: [Function] }
 Vehicle = [ name : My Ford , sport : false , speed : 190 , price : 3000]
  ```
+
+
+ - **7. Episode **
+
+ - usage of type keyword
+ - object literals
+ - varargs
+ - Function type
+
+
+  **output** :
+   ```shell
+ hello world
+ one
+ two
+ one
+ 8
+ 2
+ 20
+ 9
+ 2
+  ```
 
 
 
