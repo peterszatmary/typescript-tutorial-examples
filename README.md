@@ -102,6 +102,8 @@
     - object literals
     - varargs
     - Function type
+    - arrays
+    - tuples
 
      ```shell
      hello world
@@ -111,6 +113,10 @@
      8
      2
      20
+     first
+     second
+     third
+     11-22-333
      9
      2
      ```

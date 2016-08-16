@@ -16,6 +16,16 @@ var Lecture7 = (function () {
             console.log(result);
             return result;
         };
+        // array example
+        this.arrayExample = function (toPrint) {
+            for (var i = 0; i < toPrint.length; i++) {
+                console.log(toPrint[i]);
+            }
+        };
+        // tupple example
+        this.tupleExample = function (num) {
+            console.log(num[0] + "-" + num[1] + "-" + num[2]);
+        };
         this.squareItNarrowInt = function (num) { return 4 * num; };
     }
     // varargs example
@@ -41,6 +51,9 @@ var result2 = lecture7.squareIt({ h: 1, w: 2 });
 console.log(result2);
 var result3 = lecture7.squareItNarrow({ h: 4, w: 5 });
 console.log(result3);
+var arrayEx = ["first", "second", "third"];
+lecture7.arrayExample(arrayEx);
+lecture7.tupleExample([11, 22, 33]);
 // typed object literal obj
 var obj = { h: 3, w: 3 };
 lecture7.squareItNarrowLog(obj);

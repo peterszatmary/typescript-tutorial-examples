@@ -32,6 +32,18 @@ class Lecture7 {
         return result
     }
 
+    // array example
+    arrayExample = (toPrint : string[]) => {
+        for (let i = 0; i < toPrint.length; i++) {
+            console.log(toPrint[i])
+        }
+    }
+
+    // tupple example
+    tupleExample = (num : [number, number, number]) => {
+        console.log(num[0] + "-" + num[1] + "-" + num[2])
+    }
+
     squareItNarrowInt : SquareInterface = (num) => 4 * num
 }
 
@@ -50,6 +62,11 @@ console.log(result2)
 let result3 : number = lecture7.squareItNarrow({h : 4, w : 5})
 console.log(result3)
 
+let arrayEx : string[] = ["first","second","third"]
+lecture7.arrayExample(arrayEx)
+
+lecture7.tupleExample([11,22,33])
+
 // typed object literal obj
 let obj : {h : number, w : number} = {h : 3, w : 3}
 lecture7.squareItNarrowLog(obj)
@@ -58,3 +75,4 @@ lecture7.squareItNarrowLog(obj)
 type Obj = {h : number, w : number}
 let o : Obj = {h : 1, w  :2}
 lecture7.squareItNarrowLog(o)
+
