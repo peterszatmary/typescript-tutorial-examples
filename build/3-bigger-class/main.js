@@ -55,4 +55,4 @@ var Elephant2 = (function () {
 }());
 var elephant2 = new Elephant2("elephant 2", 10, true);
 console.log("elephant => name = " + elephant2.name + ", age = " + elephant2.age + ", vaccination = " + elephant2.vaccination);
-//# sourceMappingURL=elephant2.js.map
+//# sourceMappingURL=main.js.map

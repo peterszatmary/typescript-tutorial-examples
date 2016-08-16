@@ -30,4 +30,4 @@ var car = new Audi();
 printCar(car, null);
 car = new BMW();
 printCar(car, VehicleEquipment.FULL);
-//# sourceMappingURL=audi.js.map
+//# sourceMappingURL=main.js.map

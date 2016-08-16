@@ -5,4 +5,4 @@ var Elephant = (function () {
 }());
 var elephant = new Elephant();
 console.log("elephant object = " + elephant);
-//# sourceMappingURL=elephant.js.map
+//# sourceMappingURL=main.js.map

@@ -90,4 +90,4 @@ console.log(tiger3.calculateNextVaccination());
 console.log(tiger3.calculateNextVaccination(9));
 console.log(tiger3.lambdaCalculateNextVaccination());
 console.log(tiger3.lambdaCalculateNextVaccination(9));
-//# sourceMappingURL=tiger.js.map
+//# sourceMappingURL=main.js.map
