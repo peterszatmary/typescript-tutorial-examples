@@ -39,9 +39,9 @@
 
     - bigger class with getters, setters, constructor with params, access keywords
 
-    ```shell
-    elephant => name = elephant 2, age = 10, vaccination = true
-    ```
+     ```shell
+     elephant => name = elephant 2, age = 10, vaccination = true
+     ```
 
 - **4. Episode**
 
@@ -73,10 +73,10 @@
     - enum
 
 
-    ```shell
-    => name = Audi R8 => speed = 230 => price = 3500 => sport = true
-    => name = BMW => speed = 220 => price = 4500 => sport = undefined
-    ```
+     ```shell
+     => name = Audi R8 => speed = 230 => price = 3500 => sport = true
+     => name = BMW => speed = 220 => price = 4500 => sport = undefined
+     ```
 
 - **6. Episode**
 
@@ -86,14 +86,14 @@
     - instanceof
 
 
-    ```shell
-    It is Ferrari
-    { name: 'My Ferrari', sport: true, toString: [Function] }
-    Vehicle = [ name : My Ferrari , sport : true , speed : 250 , price : 5600]
-    It is Ford
-    { name: 'My Ford', sport: false, toString: [Function] }
-    Vehicle = [ name : My Ford , sport : false , speed : 190 , price : 3000]
-    ```
+     ```shell
+     It is Ferrari
+     { name: 'My Ferrari', sport: true, toString: [Function] }
+     Vehicle = [ name : My Ferrari , sport : true , speed : 250 , price : 5600]
+     It is Ford
+     { name: 'My Ford', sport: false, toString: [Function] }
+     Vehicle = [ name : My Ford , sport : false , speed : 190 , price : 3000]
+     ```
 
 
 - **7. Episode**
@@ -103,17 +103,17 @@
     - varargs
     - Function type
 
-    ```shell
-    hello world
-    one
-    two
-    one
-    8
-    2
-    20
-    9
-    2
-    ```
+     ```shell
+     hello world
+     one
+     two
+     one
+     8
+     2
+     20
+     9
+     2
+     ```
 
 
 
