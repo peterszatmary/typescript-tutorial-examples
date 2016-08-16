@@ -70,6 +70,17 @@ elephant => name = elephant 2, age = 10, vaccination = true
 => name = BMW => speed = 220 => price = 4500 => sport = undefined
  ```
 
+- **6. Inheritance, abstract class, toString example**.
+
+ **output** :
+{ name: 'My Ferrari', sport: true, toString: [Function] }
+Vehicle = [ name : My Ferrari , sport : true , speed : 250 , price : 5600]
+{ name: 'My Ford', sport: false, toString: [Function] }
+Vehicle = [ name : My Ford , sport : false , speed : 190 , price : 3000]
+
+
+
+
 ## Prerequisites
 
 You need to install [Nodejs](https://nodejs.org/en/).

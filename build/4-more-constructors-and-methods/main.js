@@ -72,6 +72,7 @@ var Tiger = (function () {
     };
     return Tiger;
 }());
+// executable
 var tiger1 = new Tiger("Tiger1");
 console.log("tiger1 => name = " + tiger1.name + ", age = " + tiger1.age + ", vaccination = " + tiger1.vaccination);
 console.log(tiger1.calculateNextVaccination());

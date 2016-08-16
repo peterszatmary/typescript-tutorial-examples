@@ -71,6 +71,8 @@ class Tiger {
     lambdaCalculateNextVaccination = (cf? : number) : number => (cf == undefined || cf == 0) ? this._age : cf + 1
 
 }
+
+// executable
 let tiger1 : Tiger = new Tiger("Tiger1")
 console.log("tiger1 => name = " + tiger1.name + ", age = " + tiger1.age + ", vaccination = " + tiger1.vaccination)
 console.log(tiger1.calculateNextVaccination())

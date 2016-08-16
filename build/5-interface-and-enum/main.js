@@ -26,6 +26,7 @@ var BMW = (function () {
     }
     return BMW;
 }());
+// executable
 var car = new Audi();
 printCar(car, null);
 car = new BMW();

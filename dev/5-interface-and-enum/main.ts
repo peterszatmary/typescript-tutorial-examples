@@ -35,7 +35,7 @@ class BMW implements VehicleInterface { // class implementing interface example
 }
 
 
-
+// executable
 let car : VehicleInterface = new Audi()
 printCar(car, null)
 car = new BMW()

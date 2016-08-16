@@ -53,6 +53,7 @@ var Elephant2 = (function () {
     });
     return Elephant2;
 }());
+// executable
 var elephant2 = new Elephant2("elephant 2", 10, true);
 console.log("elephant => name = " + elephant2.name + ", age = " + elephant2.age + ", vaccination = " + elephant2.vaccination);
 //# sourceMappingURL=main.js.map
