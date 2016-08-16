@@ -96,24 +96,24 @@
     ```
 
 
- - **7. Episode**
+- **7. Episode**
 
-     - usage of type keyword
-     - object literals
-     - varargs
-     - Function type
+    - usage of type keyword
+    - object literals
+    - varargs
+    - Function type
 
-     ```shell
-     hello world
-     one
-     two
-     one
-     8
-     2
-     20
-     9
-     2
-     ```
+    ```shell
+    hello world
+    one
+    two
+    one
+    8
+    2
+    20
+    9
+    2
+    ```
 
 
 
