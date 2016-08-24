@@ -121,7 +121,15 @@
      2
      ```
 
+     - **8. Episode**
 
+     - Generics
+      ```
+      string is there.
+      string
+      Vehicle is there.
+      Vehicle
+      ```
 
 ## Prerequisites
 
