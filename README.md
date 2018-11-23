@@ -23,31 +23,24 @@
 
     -   function hello world
 
-     ```bash
      Hello, World!
-     ```
 
 -    **2. Episode**
 
     -   first class
 
-     ```bash
      elephant object = [object Object]
-     ```
 
 -    **3. Episode**
 
     -   bigger class with getters, setters, constructor with params, access keywords
 
-     ```bash
      elephant => name = elephant 2, age = 10, vaccination = true
-     ```
 
 -    **4. Episode**
 
     -   trick how you can have  overloaded methods (technicaly still one method) and multiple constructors (technically still one constructor) and lambda example.
 
-     ```bash
      tiger1 => name = Tiger1, age = undefined, vaccination = undefined
      undefined
      24
@@ -63,17 +56,14 @@
      10
      10
      10
-     ```
 
 -    **5. Episode**
 
     -   interface
     -   enum
 
-     ```bash
      => name = Audi R8 => speed = 230 => price = 3500 => sport = true
      => name = BMW => speed = 220 => price = 4500 => sport = undefined
-     ```
      
 -    **6. Episode**
 
@@ -82,14 +72,12 @@
     -   toString
     -   instanceof
 
-     ```shell
      It is Ferrari
      { name: 'My Ferrari', sport: true, toString: [Function] }
      Vehicle = [ name : My Ferrari , sport : true , speed : 250 , price : 5600]
      It is Ford
      { name: 'My Ford', sport: false, toString: [Function] }
      Vehicle = [ name : My Ford , sport : false , speed : 190 , price : 3000]
-     ```
      
 -    **7. Episode**
 
@@ -100,7 +88,6 @@
     -   arrays
     -   tuples
 
-     ```bash
      hello world
      one
      two
@@ -114,17 +101,15 @@
      11-22-333
      9
      2
-     ```
 
      -   **8. Episode**
 
      -   Generics
-      ```bash
+     
       string is there.
       string
       Vehicle is there.
       Vehicle
-      ```
       
 ## Prerequisites ##
 
