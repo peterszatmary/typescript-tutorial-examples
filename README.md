@@ -6,7 +6,7 @@
 
 ## Project structure ##
 
-```bash
+```text
 ├── build
 ├── dev
     └── tsconfig.json
@@ -19,28 +19,35 @@
 
 ## Typescript tutorial examples ##
 
--    **1. Episode**
+### 1. Episode ###
 
-    -   function hello world
+function hello world
 
+```text
      Hello, World!
+```
 
--    **2. Episode**
+### 2. Episode ###
 
-    -   first class
+first class
 
+```text
      elephant object = [object Object]
+```
 
--    **3. Episode**
+### 3. Episode ###
 
-    -   bigger class with getters, setters, constructor with params, access keywords
+bigger class with getters, setters, constructor with params, access keywords
 
+```text
      elephant => name = elephant 2, age = 10, vaccination = true
+```
 
--    **4. Episode**
+### 4. Episode ###
 
-    -   trick how you can have  overloaded methods (technicaly still one method) and multiple constructors (technically still one constructor) and lambda example.
+trick how you can have  overloaded methods (technicaly still one method) and multiple constructors (technically still one constructor) and lambda example.
 
+```text
      tiger1 => name = Tiger1, age = undefined, vaccination = undefined
      undefined
      24
@@ -56,38 +63,44 @@
      10
      10
      10
+```
 
--    **5. Episode**
+### 5. Episode ###
 
-    -   interface
-    -   enum
+-   interface
+-   enum
 
+```text
      => name = Audi R8 => speed = 230 => price = 3500 => sport = true
      => name = BMW => speed = 220 => price = 4500 => sport = undefined
+```
      
--    **6. Episode**
+### 6. Episode ###
 
-    -   inheritance
-    -   abstract class
-    -   toString
-    -   instanceof
+-   inheritance
+-   abstract class
+-   toString
+-   instanceof
 
+```text
      It is Ferrari
      { name: 'My Ferrari', sport: true, toString: [Function] }
      Vehicle = [ name : My Ferrari , sport : true , speed : 250 , price : 5600]
      It is Ford
      { name: 'My Ford', sport: false, toString: [Function] }
      Vehicle = [ name : My Ford , sport : false , speed : 190 , price : 3000]
+```
      
--    **7. Episode**
+### 7. Episode ###
 
-    -   usage of type keyword
-    -   object literals
-    -   varargs
-    -   Function type
-    -   arrays
-    -   tuples
+-   usage of type keyword
+-   object literals
+-   varargs
+-   Function type
+-   arrays
+-   tuples
 
+```text
      hello world
      one
      two
@@ -101,15 +114,18 @@
      11-22-333
      9
      2
+```
 
--    **8. Episode**
+### 8. Episode ###
 
-    -   Generics
+-   Generics
      
+```text
       string is there.
       string
       Vehicle is there.
       Vehicle
+```
       
 ## Prerequisites ##
 
