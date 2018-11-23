@@ -102,9 +102,9 @@
      9
      2
 
-     -   **8. Episode**
+-    **8. Episode**
 
-     -   Generics
+    -   Generics
      
       string is there.
       string
